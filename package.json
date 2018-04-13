@@ -1,0 +1,25 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "trying to learn mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hk2812/converter.git%20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hk2812/converter.git%20/issues"
+  },
+  "homepage": "https://github.com/hk2812/converter.git%20#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.1.0",
+    "request": "^2.85.0"
+  }
+}
